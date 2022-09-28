@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+  background-color: #3b5255;
+}
+
+.image {
+  width: 45%;
+  height: 100vh;
+  background-image: url(giphy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  top: 10%;
+  height: 10%;
+  color: white;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 60%;
+  /* padding: 2rem 8rem 2rem 8rem; */
+  background-color: #7e491dd5;
+  border: #7e491d ridge 2mm;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.text-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1mm solid rgb(7, 0, 44);
+  background-color: rgb(226, 226, 226);
+  padding: 5px;
+  width: 65%;
+  padding: 1rem;
+  height: 80%;
+}
+h3 {
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: aliceblue;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  width: 40%;
+  gap: 0.5rem;
+}
+
+.submit {
+  width: 28.5rem;
+  padding: 1rem 0 1rem 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: #819980e4;
+}
+
+.submit:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+input {
+  padding: 0.4rem;
+  border: 1px grey solid;
+  border-radius: 5px;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+.member {
+  position: relative;
+  bottom: 4%;
+  margin: 0;
+}
+
+.login {
+  color: black;
+}
+
+.gitAcc {
+  color: aliceblue;
+  text-decoration: none;
+}
